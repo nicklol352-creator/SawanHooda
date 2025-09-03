@@ -57,4 +57,17 @@ p{
   font-size: 10rem;
   color: rgb(108, 168, 108);
   font-weight: 400;
+
 }
+@media only screen and (max-width:767px) {
+  h1 {
+  font-size: 1rem;
+  color: darkseagreen;
+  font-weight: 900;
+}
+p{
+  font-size: 2rem;
+  color: rgb(108, 168, 108);
+  font-weight: 400;
+
+}}
