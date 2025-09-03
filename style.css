@@ -88,6 +88,7 @@ p{
   list-style: none;
   display: flex;
   float: right;
+  justify-content: center;
   gap: 1.5rem;
 }
 
@@ -98,5 +99,6 @@ p{
   /* text-align: end; */
 }
 }
+
 
 
