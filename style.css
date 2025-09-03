@@ -1,0 +1,60 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  height: 100vh;
+  background-color: beige;
+  font-family: monospace;
+}
+
+/* Navbar */
+#navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem 2rem;
+  background-color: seagreen;
+  opacity: .4;
+  z-index: 1000;
+  
+  width: 100%;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  float: right;
+  gap: 6rem;
+}
+
+#navbar li {
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  /* text-align: end; */
+}
+
+/* Main Section */
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: darkseagreen;
+  font-weight: 900;
+}
+p{
+  font-size: 10rem;
+  color: rgb(108, 168, 108);
+  font-weight: 400;
+}
