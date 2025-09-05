@@ -49,24 +49,25 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 8rem;
   color: darkseagreen;
   font-weight: 900;
 }
 p{
-  font-size: 10rem;
+  font-size: 6rem;
   color: rgb(108, 168, 108);
   font-weight: 400;
 
 }
-@media only screen and (max-width:767px) {
+@media only screen and (max-width: 480px) {
   h1 {
-  font-size: 1rem;
+  
+  font-size: 3rem;
   color: darkseagreen;
   font-weight: 900;
 }
 p{
-  font-size: 2rem;
+  font-size: 1rem;
   color: rgb(108, 168, 108);
   font-weight: 400;
 
@@ -101,6 +102,17 @@ p{
   font-size: 1rem;
   cursor: pointer;
   /* text-align: end; */
+}
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* center horizontally */
+  align-items: center;     
+  text-align: center;
+  padding-top: 25vh ;
+  /* padding-right: 3vh; */
+  
 }
 }
 
